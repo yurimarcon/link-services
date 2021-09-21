@@ -18,5 +18,10 @@
         "titulo": "Financeiro",
         "img"   : "https://cdn-icons-png.flaticon.com/512/639/639368.png",
         "href"  : ""
+    },
+    {
+        "titulo": "Financeiro 2",
+        "img"   : "https://cdn-icons-png.flaticon.com/512/639/639368.png",
+        "href"  : ""
     }
 ]
