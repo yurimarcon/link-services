@@ -1,22 +1,22 @@
 [
-    // {
-    //     "titulo": "Reemblso",
-    //     "img"   : "https://cdn-icons-png.flaticon.com/512/639/639365.png",
-    //     "href"  : ""
-    // },
-    // {
-    //     "titulo": "Portal do colaborador",
-    //     "img"   : "https://cdn-icons-png.flaticon.com/512/639/639371.png",
-    //     "href"  : ""
-    // },
-    // {
-    //     "titulo": "Marketing",
-    //     "img"   : "https://cdn-icons-png.flaticon.com/512/639/639360.png",
-    //     "href"  : ""
-    // },
-    // {
-    //     "titulo": "Financeiro",
-    //     "img"   : "https://cdn-icons-png.flaticon.com/512/639/639368.png",
-    //     "href"  : ""
-    // }
+    {
+        "titulo": "Reemblso",
+        "img"   : "https://cdn-icons-png.flaticon.com/512/639/639365.png",
+        "href"  : ""
+    },
+    {
+        "titulo": "Portal do colaborador",
+        "img"   : "https://cdn-icons-png.flaticon.com/512/639/639371.png",
+        "href"  : ""
+    },
+    {
+        "titulo": "Marketing",
+        "img"   : "https://cdn-icons-png.flaticon.com/512/639/639360.png",
+        "href"  : ""
+    },
+    {
+        "titulo": "Financeiro",
+        "img"   : "https://cdn-icons-png.flaticon.com/512/639/639368.png",
+        "href"  : ""
+    }
 ]
