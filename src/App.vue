@@ -2,10 +2,11 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import Item from './components/Item.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <script>
-import Dados from './Dados/Services.json';
+// import Dados from './Dados/Services.json';
 
 export default {
   data(){
@@ -14,8 +15,10 @@ export default {
     }
   },
   mounted(){
-    this.servicos = Dados;
-    // console.log(Dados);
+    fetch("https://raw.githubusercontent.com/yurimarcon/link-services/main/src/Dados/Services.json")
+      .then(res => res.json())
+      .then(res => this.servicos = res)
+      .catch(e => console.log(e))
   }
 }
 </script>
@@ -32,6 +35,8 @@ export default {
     />
 
   </div>
+
+  <Footer />
 </template>
 
 <style>
