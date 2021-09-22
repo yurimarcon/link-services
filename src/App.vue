@@ -15,8 +15,8 @@ export default {
     }
   },
   mounted(){
-    // this.servicos = Dados
-    fetch("https://raw.githubusercontent.com/yurimarcon/link-services/main/src/Dados/Services.json")
+    let target = "https://raw.githubusercontent.com/yurimarcon/link-services/main/src/Dados/Services.json";
+    fetch(target)
       .then(res => res.json())
       .then(res => this.servicos = res)
       .catch(e => console.log(e))
