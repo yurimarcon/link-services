@@ -6,7 +6,7 @@ import Footer from './components/Footer.vue'
 </script>
 
 <script>
-// import Dados from './Dados/Services.json';
+import Dados from './Dados/Services.json';
 
 export default {
   data(){
@@ -15,17 +15,27 @@ export default {
     }
   },
   mounted(){
-    fetch("https://raw.githubusercontent.com/yurimarcon/link-services/main/src/Dados/Services.json")
-      .then(res => res.json())
-      .then(res => this.servicos = res)
-      .catch(e => console.log(e))
+    this.servicos = Dados
+    // fetch("https://raw.githubusercontent.com/yurimarcon/link-services/main/src/Dados/Services.json")
+    //   .then(res => res.json())
+    //   .then(res => this.servicos = res)
+    //   .catch(e => console.log(e))
   }
 }
 </script>
 
 <template>
-  <img alt="Vue logo" style="width:70px" src="./assets/logo.png" />
-  <h1>Seja bem vindo(a)!</h1>
+  <img alt="Profile" style="width:150px; border-radius:50%" src="https://avatars.githubusercontent.com/u/44410208?v=4" />
+  
+  <h1>Yuri Marcon</h1>
+  
+  <blockquote cite="Mahatma Gandhi">
+    <p>
+      "Seja a mudança que você quer ver no mundo"
+      <small> - Mahatma Gandhi - </small>
+    </p>
+  </blockquote>
+  
   <hr/>
   <div class="items">
     <Item 

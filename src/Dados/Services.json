@@ -1,27 +1,17 @@
 [
     {
-        "titulo": "Reemblso",
-        "img"   : "https://cdn-icons-png.flaticon.com/512/639/639365.png",
-        "href"  : ""
+        "titulo": "GitHub",
+        "img"   : "https://github.githubassets.com/images/modules/logos_page/Octocat.png",
+        "href"  : "https://github.com/yurimarcon"
     },
     {
-        "titulo": "Portal do colaborador",
-        "img"   : "https://cdn-icons-png.flaticon.com/512/639/639371.png",
-        "href"  : ""
+        "titulo": "YouTube",
+        "img"   : "https://cdn-icons-png.flaticon.com/512/1076/1076995.png",
+        "href"  : "https://www.youtube.com/channel/UCtGTyjWw15xNi_dcQHEiZuA"
     },
     {
-        "titulo": "Marketing",
-        "img"   : "https://cdn-icons-png.flaticon.com/512/639/639360.png",
-        "href"  : ""
-    },
-    {
-        "titulo": "Financeiro",
-        "img"   : "https://cdn-icons-png.flaticon.com/512/639/639368.png",
-        "href"  : ""
-    },
-    {
-        "titulo": "Financeiro 2",
-        "img"   : "https://cdn-icons-png.flaticon.com/512/639/639368.png",
-        "href"  : ""
+        "titulo": "Linkedin",
+        "img"   : "https://img-premium.flaticon.com/png/512/1377/premium/1377213.png?token=exp=1632273089~hmac=009c49d8de209de89e6faccf8b27e19c",
+        "href"  : "https://www.linkedin.com/in/yurimarcon/"
     }
 ]
