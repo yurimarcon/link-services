@@ -6,7 +6,7 @@ import Footer from './components/Footer.vue'
 </script>
 
 <script>
-import Dados from './Dados/Services.json';
+// import Dados from './Dados/Services.json';
 
 export default {
   data(){
@@ -15,11 +15,11 @@ export default {
     }
   },
   mounted(){
-    this.servicos = Dados
-    // fetch("https://raw.githubusercontent.com/yurimarcon/link-services/main/src/Dados/Services.json")
-    //   .then(res => res.json())
-    //   .then(res => this.servicos = res)
-    //   .catch(e => console.log(e))
+    // this.servicos = Dados
+    fetch("https://raw.githubusercontent.com/yurimarcon/link-services/main/src/Dados/Services.json")
+      .then(res => res.json())
+      .then(res => this.servicos = res)
+      .catch(e => console.log(e))
   }
 }
 </script>
