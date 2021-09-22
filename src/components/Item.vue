@@ -30,6 +30,7 @@ span{
     font-weight: 900;
 }
 .card{
+    background-color: rgba( 255, 255, 255, .5);
     display: flex ;
     justify-content: center;
     flex-direction: column;
