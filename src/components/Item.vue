@@ -46,5 +46,10 @@ span{
     opacity: 1;
     box-shadow: 0 0 4em grey;
 }
+@media ( max-width: 600px ) {
+    div{
+        margin: 20px 20px 20px 20px;
+    }
+}
 
 </style>

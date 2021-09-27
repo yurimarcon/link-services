@@ -57,6 +57,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  margin-bottom: 100px;
 }
 html{
   background: url("https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483_960_720.jpg");
