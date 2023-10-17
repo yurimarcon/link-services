@@ -1,5 +1,5 @@
 <template>
-  <footer>{{"123"}} - Yuri Marcon</footer>
+  <footer>{{new Date().getFullYear()}} - Yuri Marcon</footer>
 </template>
 
 <script>
