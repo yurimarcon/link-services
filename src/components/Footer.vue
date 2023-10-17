@@ -1,5 +1,5 @@
 <template>
-  <footer>2023 - Yuri Marcon</footer>
+  <footer>{{"123"}} - Yuri Marcon</footer>
 </template>
 
 <script>
