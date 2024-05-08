@@ -18,5 +18,10 @@
         "titulo": "Instagram",
         "img"   : "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
         "href"  : "https://www.instagram.com/yurierikmarcon/"
+    },
+    {
+        "titulo": "Telegram",
+        "img"   : "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+        "href"  : "https://web.telegram.org/k/#@yurimarcon"
     }
 ]
