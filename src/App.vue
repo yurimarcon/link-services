@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-  <img alt="Profile" style="width:150px; border-radius:50%" src="https://avatars.githubusercontent.com/u/44410208?v=4" />
+  <img alt="Profile" style="width:150px; border-radius:50%" src="https://avatars.githubusercontent.com/u/44410208" />
   
   <h1>Yuri Marcon</h1>
   
